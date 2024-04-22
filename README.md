@@ -21,17 +21,31 @@ A window will appear asking if you'd like to allow non-super users to capture pa
 Select 'no' to prevent potential security risks.
 Select 'yes' for open-source network traffic.
 
+Run tcpdump
+
+    sudo tcpdump -i eth0
+
+End tcpdump using CTRL + C
+
 Install wireshark.
 
     sudo apt install wireshark
 
 Enter Y to accept installation
 
+Open Wireshark.
+
+    wireshark
+
 Install tshark.
 
     sudo apt install tshark
 
 Installing Virtual Network Computers:
+
+Open tshark.
+
+    tshark
 
 Install RealVNC.
 
