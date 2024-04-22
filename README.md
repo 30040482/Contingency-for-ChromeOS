@@ -57,10 +57,6 @@ Add users with usermod.
 
     sudo usermod -a -G wireshark 'yourusername'
 
-Run tshark.
-
-    sudo tshark -i eth0
-
 End tshark using CTRL + C
 
 Installing Virtual Network Computers:
