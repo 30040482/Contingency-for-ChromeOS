@@ -41,6 +41,22 @@ Install tshark.
 
     sudo apt install tshark
 
+Open tshark.
+
+    tshark
+
+If you did not allow non-super users to capture packets, you will not have permission to capture packets on any network interface.
+
+Reconfigure Wireshark to enable the sufficient permissions.
+
+    sudo dpkg-reconfigure wireshark-common
+
+Select 'yes' in re-enable non-super user permissions.
+
+Add users with usermod. 
+
+    sudo usermod -a -G wireshark 'yourusername'
+
 Installing Virtual Network Computers:
 
 Install RealVNC.
