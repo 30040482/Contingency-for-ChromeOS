@@ -79,3 +79,6 @@ Return to your Linux terminal and install the DEB package.
 
     sudo dpkg -i VNC-Server-7.10.0-Linux-x64.deb
     
+Open RealVNC
+
+    vncserver-x11
