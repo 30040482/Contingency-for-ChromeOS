@@ -41,9 +41,9 @@ Install tshark.
 
     sudo apt install tshark
 
-Open tshark.
+Run tshark.
 
-    tshark
+    sudo tshark -i eth0
 
 If you did not allow non-super users to capture packets, you will not have permission to capture packets on any network interface.
 
