@@ -82,3 +82,29 @@ Return to your Linux terminal and install the DEB package.
 Open RealVNC
 
     vncserver-x11
+
+Installing TigerVNC
+
+Check the codename of your Ubuntu release.
+
+    cat /etc/os-release | grep VERSION=
+
+Install nano
+
+    sudo apt install nano
+
+Enable Universe Repository
+
+    sudo nano /etc/apt/sources.list
+
+Remove the first line and add these two lines to the nano file. Replace 'codename' with the codename of your Ubuntu release.
+
+    deb http://archive.ubuntu.com/ubuntu 'codename' universe
+    deb-src http://archive.ubuntu.com/ubuntu 'codename' universe
+
+Save the file with CTRL + S
+Exit the file with CTRL + X
+Update package lists
+
+    sudo apt update
+    sudo apt upgrade
