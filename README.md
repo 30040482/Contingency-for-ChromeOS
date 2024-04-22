@@ -1,5 +1,5 @@
 # Contingency-for-ChromeOS
-A set of network security tools operating on a ChromeOS Linux Development Kit.
+A set of open-source network security tools operating on a ChromeOS Linux Development Kit.
 
 Updating Linux:
 
