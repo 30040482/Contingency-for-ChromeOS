@@ -43,10 +43,6 @@ Install tshark.
 
 Installing Virtual Network Computers:
 
-Open tshark.
-
-    tshark
-
 Install RealVNC.
 
 Visit the link below and download the RealVNC Server DEB package for Linux.
