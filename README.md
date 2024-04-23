@@ -100,7 +100,8 @@ Remove the first line and add these two lines to the nano file. Replace 'codenam
 
 Save the file with CTRL + S
 Exit the file with CTRL + X
-Update package lists
+Update package lists.
 
     sudo apt update
     sudo apt upgrade
+
