@@ -1,4 +1,5 @@
 # Contingency-for-ChromeOS
+# Work In Progress. TigerVNC Install Needs Fix.
 A set of open-source network security tools operating on a ChromeOS Linux Development Kit.
 
 Updating Linux:
